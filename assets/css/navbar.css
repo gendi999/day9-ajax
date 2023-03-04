@@ -1,0 +1,87 @@
+* {
+    font-family: arial;
+    /* box-sizing: border-box; */
+  }
+body {
+    margin: 0;
+  }
+  nav {
+    display: flex;
+    align-items: center;
+    height: 10vh;
+    background-color: f2f2f2;
+    /* background-color: #f2f2f2;
+    padding: 0 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 10vh; */
+  }
+
+  nav div {
+    display: flex;
+    align-items: center;
+    flex: 50%;
+  }
+  
+  nav div.left-side {
+    padding-left: 50px;
+  }
+  
+  nav div.left-side a:hover {
+    color: rgb(31, 52, 243);
+      transition-duration: 300ms;
+  }
+  nav div.right-side {
+    padding-right: 90px;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin-left: 40px;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-left: 40px;
+  }
+  
+  nav ul li a {
+    color: #000000;
+    text-decoration: none;
+  }
+  
+  nav ul li a.list-active {
+    color: #080606;
+    font-weight: 700;
+  }
+  
+  nav .right-side a {
+    background-color: rgb(17, 27, 12);
+      color: #F4F3F3;
+      padding: 10px;
+      border-radius: 10px;
+      font-size: 15px;
+      font-weight: 600;
+      text-decoration: none;
+  }
+  nav .right-side a:hover{
+    background-color: rgb(41, 19, 236);
+      transition-duration: 500ms;
+  }
+  .button-cme button{
+    background-color: rgb(7, 14, 14);
+
+  }
+
+  .button-cme button:hover{
+    background-color: rgb(192, 28, 28);
+    transition-duration: 500ms;
+
+  }

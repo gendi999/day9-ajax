@@ -1,0 +1,63 @@
+<html>
+    <head>
+        <title>Contact Me</title>
+        <link rel="stylesheet" href="assets/css/navbar.css">
+    </head>
+    <body style="background-color: #c4c4c4;">
+        <nav>
+            <div class="left-side">
+              <a href="index.html">
+                <img src="assets/image/logo.png" alt="logo" />
+              </a>
+              <ul>
+                <li>
+                  <a href="index.html">Home</a>
+                </li>
+                <li>
+                  <a href="project.html" >My Project</a>
+                </li>
+              </ul>
+            </div>
+            <div class="right-side">
+              <a href="contact.html"> Contact Me </a>
+            </div>
+          </nav>
+        <div style="background: #c4c4c4; width: 500px; margin: 0 auto; margin-top: 100px;">
+            <form>
+                <h1 style="text-align: center;">GET IN TOUCH</h1>
+                <div>
+                    <label for="name" style="font-size: 18px; font-weight: bold;">Name</label>
+                    <input type="text" id="name" style="height: 40px; box-shadow:0 5px 5px #13060660; width: 100%; box-sizing: border-box; padding: 8px; margin-top: 5px; margin-bottom: 20px; border-radius: 5px; border: 1px solid #c4c4c4"/>
+                </div>
+                
+                <div>
+                    <label for="email" style="font-size: 18px; font-weight: bold;">Email</label>
+                    <input type="text" id="email" style="height: 40px; box-shadow:0 5px 5px #13060660; width: 100%; box-sizing: border-box; padding: 8px; margin-top: 5px; margin-bottom: 20px; border-radius: 5px; border: 1px solid #c4c4c4"/>
+                </div>
+                
+                <div>
+                    <label for="phone" style=" font-size: 18px; font-weight: bold;">Phone Number</label>
+                    <input type="text" id="phone" style="height: 40px; box-shadow:0 5px 5px #13060660; width: 100%; box-sizing: border-box; padding: 8px; margin-top: 5px; margin-bottom: 20px; border-radius: 5px; border: 1px solid #c4c4c4"/>
+                </div>
+                
+                <div>
+                    <label for="subject" style="font-size: 18px; font-weight: bold;">Subject</label>
+                    <select id="subject"  style="height: 40px; box-shadow:0 5px 5px #13060660; width: 100%; box-sizing: border-box; padding: 8px; margin-top: 5px; margin-bottom: 20px; border-radius: 5px; border: 1px solid #c4c4c4">
+                        <option>Frontend</option>
+                        <option>Backend</option>
+                        <option>Fullstack</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="description" style="font-size: 18px; font-weight: bold;">Your Messge</label>
+                    <textarea id="description" style="box-shadow:0 5px 5px #13060660; width: 100%; box-sizing: border-box; padding: 8px; margin-top: 5px; margin-bottom: 20px; border-radius: 5px; border: 1px solid #c4c4c4; height: 100px; resize: none"></textarea>
+                </div>
+                <div class="button-cme">
+                    <button type="submit" onclick="getData()" style="margin-bottom: 50px; float: right;  padding: 8px 30px ; border: none; border-radius: 10px; font-size: 17px; color: rgb(241, 235, 235); cursor: pointer">Submit</button>
+                </div>
+            </form>
+        </div>
+    </body>
+    <script src="assets/js/contact.js"></script>
+</html>

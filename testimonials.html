@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Testimonials</title>
+    <link rel="stylesheet" href="assets/css/testimonials.css" />
+    <link rel="stylesheet" href="assets/css/navbar.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <nav>
+        <div class="nav-left">
+            <div class="left-side">
+                <a href="index.html">
+                  <img src="assets/image/logo.png" alt="logo" />
+                </a>
+                <ul>
+                  <li class="item-collapse">
+                    <a href="index.html" class="list-active text-dark">Home</a>
+                  </li>
+                  <li class="item-collapse">
+                    <a href="project.html">My Project</a>
+                  </li>
+                  <li class="item-collapse">
+                    <a href="testimonials.html">Testimonials</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="right-side" id="item-collapse">
+                <a href="contactme.html"> Contact Me </a>
+              </div>
+        <div class="nav-right" id="barsmenu">
+            <button style="right: inherit; background-color: transparent; border: none; cursor: pointer;" onclick="openHamburger();">
+                <i class="fa-2x fa-solid fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+    <div class="hamburger-nav-container" id="hamburger-nav-container">
+        <a href="index.html">Home</a>
+        <a href="project.html">My Project</a>
+        <a href="testimonials.html" class="hamburger-active">Testimonials</a>
+        <a href="contactme.html "><button style="background-color: rgb(9, 14, 14); color: azure; padding: 5px 5px; border-radius: 5px;">Contact Me</button></a>
+    </div>
+
+    <div class="container">
+        <h1>My Testimonials</h1>
+        <div class="container-rating">
+            <h2> Rating By Star</h2>
+            <div class="rating">
+                <button class="rating-btn" onclick="getAllTestimonials()">
+                    All
+                </button>
+                <button id="rating1" class="rating-btn" onclick=" filterTestimonials(1)">
+                    1 <i class="fa-solid fa-star"></i>
+                </button>
+                <button id="rating2" class="rating-btn" onclick=" filterTestimonials(2)">
+                    2 <i class="fa-solid fa-star" ></i>
+                </button>
+                <button id="rating3" class="rating-btn" onclick="filterTestimonials(3)">
+                    3 <i class="fa-solid fa-star"></i>
+                </button>
+                <button id="rating4" class="rating-btn" onclick="filterTestimonials(4)">
+                    4 <i class="fa-solid fa-star"></i>
+                </button>
+                <button id="rating5" class="rating-btn" onclick="filterTestimonials(5)">
+                    5 <i class="fa-solid fa-star"></i>
+                </button>
+            </div>
+        </div>
+
+    <div class="container">
+        <section class="testimonials" id="testimonials">
+            <!-- <div class="testimonial">
+                <img src="assets/profile/profile.png" class="profile-testimonial" />
+                <p class="quote">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget lectus eu
+                    libero venenatis gravida eget vel odio."</p>
+                <p class="author">- Surya Elidanto</p>
+            </div> -->
+        </section>
+    </div>
+    <script src="assets/js/index.js"></script>
+    <!-- <script src="assets/js/testimonials.js"></script> -->
+    <script src="assets/js/ajax.js"></script>
+</body>
+
+</html>

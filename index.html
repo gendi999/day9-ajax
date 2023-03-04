@@ -1,0 +1,97 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gendi | Personal Web</title>
+    <link  rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/navbar.css">
+  </head>
+  <body>
+     <!-- NavBar -->
+     <nav>
+      <div class="left-side">
+        <a href="index.html">
+          <img src="assets/image/logo.png" alt="logo" />
+        </a>
+        <ul>
+          <li class="item-collapse">
+            <a href="index.html" class="list-active text-dark">Home</a>
+          </li>
+          <li class="item-collapse">
+            <a href="project.html">My Project</a>
+          </li>
+          <li class="item-collapse">
+            <a href="testimonials.html">Testimonials</a>
+          </li>
+        </ul>
+      </div>
+      <div class="right-side" id="item-collapse">
+        <a href="contactme.html"> Contact Me </a>
+      </div>
+      <div id="barsmenu" style="margin-left: 80px">
+        <button style=" background-color: transaparent; border: none; cursor: pointer;" onclick="openHamburger()">
+            <i class="fa-2x fa-solid fa-bars"></i>
+        </button>
+    </div>
+    </nav>
+    <div class="hamburger-nav-container" id="hamburger-nav-container">
+      <a href="index.html" class="hamburger-active">Home</a>
+      <a href="project.html">My Project</a>
+      <a href="testimonials.html">Testimonials</a>
+      <a href="contactme.html "><button style="background-color: rgb(9, 14, 14); color: beige; padding: 5px 5px; border-radius: 5px;">Contact Me</button></a>
+  </div>
+
+    <div id="container">
+      <div id="left-container">
+        <h2>Hi Welcome To My Hut</h2>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus tempora magnam itaque corrupti explicabo, eum alias! Excepturi, laudantium quidem! Obcaecati aperiam quis dolor quia facilis sunt quidem dicta, itaque excepturi enim, atque officiis magni vel consequatur nostrum perspiciatis, dignissimos velit praesentium! Officia, qui quia? Assumenda expedita doloremque numquam. Quibusdam, explicabo? Quis, delectus? Reiciendis nobis neque dolores corrupti dolorem repudiandae, sed fugit, ad non expedita, magnam mollitia beatae? Quae ab molestiae et sit laudantium nisi placeat ullam est? Provident, hic doloribus.
+           </p>
+           <div id="action-button-contact">
+            <a id="contact-button" href="https://github.com/">
+              <button>Contact</button>
+            </a>
+            <a id="download-cv" href="https://www.instagram.com/ghenzzzz"  >
+               Download CV
+                <i class="fa-solid fa-download"></i>
+            </a>
+          </div>
+          <div id="icon-media">
+            <a href="https://www.instagram.com/ghenzzzz/" target="_blank" style="text-decoration: none; " id="insta">
+               <button>
+                 <i class="fab fa-instagram"></i>
+               </button>
+             </a>
+            <a href="https://m.facebook.com/100008403918095/" target="_blank" style="text-decoration: none;  " id="face">
+              <button >
+                  <i style="color:rgb(243, 243, 253);" class="fab fa-facebook-square"></i>
+              </button>
+           </a>
+            <a href="https://twitter.com/login?lang=id" target="_blank" style="text-decoration: none;" id="twit">
+              <button>
+                <i class="fab fa-twitter-square"></i>
+              </button>
+            </a>
+           <a href="https://linkedin.com/in/yourusername" target="_blank" style="text-decoration: none;" id="linked">
+              <button>
+                <i class="fa-brands fa-linkedin"></i>
+              </button>
+            </a>
+          </div>
+        </div>
+        <div id="profile-card">
+          <img src="assets/image/gen.jpeg" alt="Profile Picture"/>
+          <div>
+           <h2>Gendi Telamdika</h2>
+          <p>Fullstack Developer</p>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="assets/js/index.js"></script>
+</html>

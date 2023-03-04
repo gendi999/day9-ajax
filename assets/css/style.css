@@ -1,0 +1,380 @@
+* {
+  font-family: arial;
+  box-sizing: border-box;
+}
+body{
+    background-color: #c4c4c4;
+}
+#container {
+    width: 80%;
+    margin: 100px auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 16px 32px rgba(29,29,29,0.25);
+    padding: 50px;
+  }
+  #left-container {
+    width: 60%;
+  }
+  
+#left-container h1 {
+    font-weight: 800;
+    margin-top: 0;
+  }
+  #left-container p {
+    text-align: justify;
+    margin-bottom: 30px;
+  }
+  #profile-card {
+    width: 35%;
+    border-radius: 10px;
+    box-shadow: 0 25px 32px rgba(29,29,29,0.25);
+  }
+  #profile-card img {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+  }
+  #profile-card div {
+    padding: 20px 0;
+  }
+  #profile-card div h2 {
+    margin: 0;
+    margin-bottom: 5px;
+    text-align: center;
+  }
+  #profile-card div p {
+    margin: 0;
+    text-align: center;
+  }  
+  #action-button-contact {
+    text-decoration: none;
+  }
+  #action-button-contact a {
+    text-decoration: none;
+  }
+  #contact-button {
+      margin-right: 20px;
+    }
+  #contact-button button {
+    border: none;
+    background: #0c0f13;
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    padding: 10px 25px;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  #download-cv {
+    border: none;
+    background: none;
+    font-weight: arial;
+    color: #0a0d10;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  #download-cv i {
+    margin-left: 5px;
+    color: #111316;
+    cursor: pointer;
+  }
+  #donwload-cv i a:hover{
+    background-color: rgb(250, 17, 17);
+    transition-duration: 500ms;
+
+  }
+  #action-button-contact a:hover button{
+   background-color: rgb(250, 17, 17);
+   transition-duration: 500ms;
+  
+  }
+ #icon-media{
+  margin-top: 30px;
+ }
+ #icon-media #face button:hover {
+  background-color: rgb(2, 2, 10);
+  padding: 100px;
+ } 
+ #icon-media #face button {
+  background-color: #0d2e88;
+  color: #eeecf7;
+  font-size: 30px;  
+  border: none;
+  padding: 8px 10px;
+  border-radius: 30px;
+  margin-right: 20px; 
+  cursor: pointer;
+  
+ }
+ #icon-media #insta button:hover {
+  background-color: rgb(2, 2, 10);
+ } 
+ #icon-media #insta button {
+  background-color: #880d0d;
+  color: #eeecf7;
+  font-size: 30px; 
+  border: none;
+  color: #ffffff;
+  padding: 8px 10px;
+  border-radius: 30px;
+  margin-right: 20px; 
+  cursor: pointer;
+ }
+ #icon-media #twit button:hover {
+  background-color: rgb(2, 2, 10);
+  padding: 100px;
+ } 
+ #icon-media #twit button {
+  background-color: #105eb8;
+  transition-duration: 500ms;
+  color: #eeecf7;
+  font-size: 30px; 
+  border: none;
+  color: #f7eff1;
+  padding: 8px 10px;
+  border-radius: 30px;
+  margin-right: 20px; 
+  cursor: pointer;
+ }
+ #icon-media #linked button:hover {
+  background-color: rgb(2, 2, 10);
+  padding: 100px;
+ } 
+ #icon-media #linked button {
+  background-color: #2b4fb4;
+  transition-duration: 500ms;
+  color: #eeecf7;
+  font-size: 30px; 
+  border: none;
+  color: #ffffff;
+  padding: 8px 10px;
+  border-radius: 30px;
+  margin-right: 20px; 
+  cursor: pointer;
+ }
+ .hamburger-nav-container {
+  font-size: 23px;
+  display: none;
+}
+
+.hamburger-nav-container .hamburger-active {
+  background-color: orangered;
+}
+
+.hamburger-nav-container a {
+  color: rgb(233, 221, 221);
+  background-color: #9a9a9a;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  border: 1px solid #9a9a9a;
+  font-size: large;
+  text-decoration: none;
+}
+
+#barsmenu {
+  display: none;
+  margin-left: none;
+}
+@media only screen and (max-width: 900px) {
+  #barsmenu {
+    display: block;
+    text-align: end;
+    padding-right: 10px;
+}
+
+
+.item-collapse {
+    display: none;
+}
+#item-collapse{
+    display:none;
+}
+
+.hamburger {
+    flex: 1;
+    display: flex;
+    margin-right: 30px;
+    align-items: center;
+    justify-content: flex-end;
+}
+.left-side img{
+    margin-top: 8px;
+    margin-bottom: 5px;
+}
+
+ 
+}
+ 
+ @media only screen and (max-width:600px) {
+#container{
+  width: 80%;
+    margin: 80px auto;
+    display: block;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 16px 32px rgba(29,29,29,0.25);
+    padding: 50px;
+}
+#left-container {
+  width: 100%;
+}
+
+#left-container h2 {
+  font-weight: 800;
+  margin-top: 0;
+  font-size: large;
+}
+#left-container p {
+  text-align: justify;
+  justify-content: center;
+  margin-bottom: 30px;
+  font-size: 12px;
+}
+#profile-card {
+  width: 70%;
+  margin-left: 15%;
+  /* margin-right: 30px; */
+  border-radius: 10px;
+  box-shadow: 0 25px 32px rgba(29,29,29,0.25);
+}
+#profile-card img {
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+}
+#profile-card div {
+  padding: 20px 0;
+}
+#profile-card div h2 {
+  margin: 0;
+  margin-bottom: 5px;
+  text-align: center;
+  font-size: 20px;
+}
+#profile-card div p {
+  font-size: 15px;
+  margin: 0;
+  text-align: center;
+}
+#action-button-contact {
+  text-decoration: none;
+  
+}
+#action-button-contact a {
+  text-decoration: none;
+}
+#contact-button {
+    margin-right: 10px;
+  }
+#contact-button button {
+  border: none;
+  background: #0c0f13;
+  margin-top: 10px;
+  font-size: 10px;
+  font-weight: bold;
+  color: #ffffff;
+  padding: 8px 8px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+#download-cv {
+  border: none;
+  background: none;
+  font-weight: arial;
+  color: #0a0d10;
+  border-radius: 20px;
+  font-size: 10px;
+  cursor: pointer;
+}
+#download-cv i {
+  margin-left: 3px;
+  color: #111316;
+  cursor: pointer;
+}
+#donwload-cv i a:hover{
+  background-color: rgb(250, 17, 17);
+  transition-duration: 500ms;
+
+}
+#action-button-contact a:hover button{
+ background-color: rgb(250, 17, 17);
+ transition-duration: 500ms;
+
+}
+
+#icon-media #face button:hover {
+  background-color: rgb(2, 2, 10);
+  padding: 100px;
+ } 
+ #icon-media{
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+ }
+ #icon-media #face button {
+  background-color: #0d2e88;
+  color: #eeecf7;
+  font-size: 15px;  
+  border: none;
+  padding: 5px 5px;
+  border-radius: 30px;
+  margin-right: 10px; 
+  cursor: pointer;
+  
+ }
+ #icon-media #insta button:hover {
+  background-color: rgb(2, 2, 10);
+ } 
+ #icon-media #insta button {
+  background-color: #880d0d;
+  color: #eeecf7;
+  font-size: 15px;  
+  border: none;
+  padding: 5px 5px;
+  border-radius: 30px;
+  margin-right: 10px; 
+  cursor: pointer;
+ }
+ #icon-media #twit button:hover {
+  background-color: rgb(2, 2, 10);
+  padding: 100px;
+ } 
+ #icon-media #twit button {
+  background-color: #105eb8;
+  transition-duration: 500ms;
+  color: #eeecf7;
+  font-size: 15px;  
+  border: none;
+  padding: 5px 5px;
+  border-radius: 30px;
+  margin-right: 10px; 
+  cursor: pointer;
+ }
+ #icon-media #linked button:hover {
+  background-color: rgb(2, 2, 10);
+  padding: 100px;
+ } 
+ #icon-media #linked button {
+  background-color: #2b4fb4;
+  transition-duration: 500ms;
+  color: #eeecf7;
+  font-size: 15px;  
+  border: none;
+  padding: 5px 5px;
+  border-radius: 30px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  cursor: pointer;
+ }
+}
+
+ 
